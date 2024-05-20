@@ -1,0 +1,18 @@
+name: LAC
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - patchelf
+  - pip
+  - python
+  - pip:
+      - gym
+      - mujoco
+      - mujoco-py
+      - numpy
+      - pillow
+      - protobuf
+      - torch
+      - wandb
